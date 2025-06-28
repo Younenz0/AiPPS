@@ -1,7 +1,6 @@
 import streamlit as st
 from langchain_openai.chat_models import ChatOpenAI
 
-st.video("PC_Builder_Video_Request_Fulfilled.mp4")
 st.title("PC Builder")
 
 openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
@@ -36,3 +35,5 @@ with st.form("my_form"):
         
     if submitted and openai_api_key.startswith("sk-"):
         generate_response(text)
+
+st.video("PC_Builder_Video_Request_Fulfilled.mp4")
