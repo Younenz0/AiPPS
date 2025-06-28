@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain_openai.chat_models import ChatOpenAI
 
-st.image("Web_App_Logo_PC_BUILDER.png")
+st.video("PC_Builder_Video_Request_Fulfilled.mp4")
 st.title("PC Builder")
 
 openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
