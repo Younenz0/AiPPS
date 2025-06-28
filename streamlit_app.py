@@ -19,7 +19,7 @@ with st.form("my_form"):
     usage = st.selectbox("What will you use the PC for: ", ["Gaming PC", "PC for basic studying/work", "PC for instensive apps like Blender"])
     games = ''
     if usage=="Gaming PC":
-        games = st.selectbox("How demanding games do you plan on playing:", ["I do not plan to play games", "Light games - Terraria, Stardew Valley", "Medium games - Minecraft, Fortnite", "Intesive games - Cyberpunk 2077, Black Myth Wukong"])
+        games = st.selectbox("How demanding games do you plan on playing:", ["I do not plan to play games ", "Light games - Terraria, Stardew Valley", "Medium games - Minecraft, Fortnite", "Intesive games - Cyberpunk 2077, Black Myth Wukong"])
     storage = st.selectbox("How big of a storage drive you want:", ["Small - Browsing internet, small games/apps", "Medium - A few games, storing some movies/videos", "Big - Storing many games/photos/videos"])
     also = st.text_area(
         "If you have any other requirements or you want to add something put in the this box:",
